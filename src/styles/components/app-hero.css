@@ -28,3 +28,20 @@
   font-size: var(--text-base);
   color: var(--color-text-muted);
 }
+
+.app-hero__places-count {
+  margin: var(--space-lg) 0 0;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.app-hero__places-list {
+  margin: var(--space-sm) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+.app-hero__places-list li + li {
+  margin-top: var(--space-xs);
+}
