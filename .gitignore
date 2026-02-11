@@ -13,6 +13,7 @@ dist-ssr
 *.local
 .env
 .env.*
+GITHUB_PUSH.md
 
 # Editor directories and files
 .vscode/*
