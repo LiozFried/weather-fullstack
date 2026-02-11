@@ -4,4 +4,5 @@
 @import './base/variables.css';
 @import './base/reset.css';
 @import './components/app-hero.css';
-/* @import './pages/...';  – add as we add pages */
+@import './components/layout.css';
+@import './pages/about.css';

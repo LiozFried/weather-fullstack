@@ -1,0 +1,40 @@
+/* App layout: header and main content area. */
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-layout__header {
+  padding: var(--space-md) var(--space-xl);
+  background-color: var(--color-bg-elevated);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.app-layout__nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.app-layout__nav-link {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+}
+.app-layout__nav-link:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.app-layout__nav-link.active {
+  color: var(--color-primary);
+}
+
+.app-layout__main {
+  flex: 1;
+}

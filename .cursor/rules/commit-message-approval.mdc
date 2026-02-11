@@ -1,0 +1,14 @@
+---
+description: Show proposed git commit message and allow user to change it before committing
+alwaysApply: true
+---
+
+# Git commit message approval
+
+Before running `git commit` in this project:
+
+1. **Propose** the commit message in your response (e.g. in a short blockquote or code block).
+2. **Tell the user** they can approve it or suggest a different message.
+3. **Only run** `git commit -m "..."` after the user has approved (e.g. "ok", "use it", "good") or provided their preferred message.
+
+Do not run `git commit` in the same turn where you propose the message unless the user has already said to go ahead. If you need to commit as part of a multi-step task, show the message first and wait for approval, or run the commit in a follow-up after they confirm.
