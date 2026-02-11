@@ -1,0 +1,7 @@
+/* Main stylesheet: imports all layers in order.
+   Order matters: base → components → pages. */
+
+@import './base/variables.css';
+@import './base/reset.css';
+@import './components/app-hero.css';
+/* @import './pages/...';  – add as we add pages */

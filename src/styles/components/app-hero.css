@@ -1,0 +1,30 @@
+/* Hero / welcome section used on the home page. */
+
+.app-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: var(--space-xl);
+  text-align: center;
+}
+
+.app-hero__logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: var(--space-lg);
+}
+
+.app-hero__title {
+  margin: 0;
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.app-hero__subtitle {
+  margin: var(--space-sm) 0 0;
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+}
